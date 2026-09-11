@@ -1,0 +1,1755 @@
+2026-09-11 03:16:36 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-0\test_open_app_unknown_is_grace0\test.db
+2026-09-11 03:16:36 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-0\test_shutdown_requires_confirm0\test.db
+2026-09-11 03:16:36 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-0\test_shutdown_cancelled_by_no0\test.db
+2026-09-11 03:16:36 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-0\test_confirmation_expires0\test.db
+2026-09-11 03:16:36 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-0\test_yes_without_pending_is_a_0\test.db
+2026-09-11 03:16:36 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-0\test_whatsapp_ambiguous_contac0\test.db
+2026-09-11 03:16:36 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-0\test_whatsapp_unambiguous_flow0\test.db
+2026-09-11 03:16:36 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-0\test_failed_tool_never_crashes0\test.db
+2026-09-11 03:16:36 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-0\test_commands_are_persisted0\test.db
+2026-09-11 03:16:36 | WARNING  | app.agent.permissions | Blocked tool requested: run_shell
+2026-09-11 03:16:36 | WARNING  | app.agent.permissions | Blocked tool requested: disable_antivirus
+2026-09-11 03:16:36 | WARNING  | app.agent.permissions | Blocked tool requested: run_powershell
+2026-09-11 03:16:36 | WARNING  | app.agent.permissions | Blocked tool requested: execute_python
+2026-09-11 03:16:36 | WARNING  | app.agent.permissions | Blocked tool requested: disable_firewall
+2026-09-11 03:16:36 | WARNING  | app.agent.permissions | Blocked tool requested: read_credentials
+2026-09-11 03:16:36 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:16:36 | INFO     | app.agent.permissions | Pending action expired: shutdown
+2026-09-11 03:16:36 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:18:40 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-1\test_open_app_unknown_is_grace0\test.db
+2026-09-11 03:18:40 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-1\test_shutdown_requires_confirm0\test.db
+2026-09-11 03:18:40 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-1\test_shutdown_cancelled_by_no0\test.db
+2026-09-11 03:18:40 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-1\test_confirmation_expires0\test.db
+2026-09-11 03:18:40 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-1\test_yes_without_pending_is_a_0\test.db
+2026-09-11 03:18:40 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-1\test_whatsapp_ambiguous_contac0\test.db
+2026-09-11 03:18:40 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-1\test_whatsapp_unambiguous_flow0\test.db
+2026-09-11 03:18:40 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-1\test_failed_tool_never_crashes0\test.db
+2026-09-11 03:18:40 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-1\test_commands_are_persisted0\test.db
+2026-09-11 03:18:40 | WARNING  | app.agent.permissions | Blocked tool requested: read_credentials
+2026-09-11 03:18:40 | WARNING  | app.agent.permissions | Blocked tool requested: execute_python
+2026-09-11 03:18:40 | WARNING  | app.agent.permissions | Blocked tool requested: disable_firewall
+2026-09-11 03:18:40 | WARNING  | app.agent.permissions | Blocked tool requested: run_shell
+2026-09-11 03:18:40 | WARNING  | app.agent.permissions | Blocked tool requested: run_powershell
+2026-09-11 03:18:40 | WARNING  | app.agent.permissions | Blocked tool requested: disable_antivirus
+2026-09-11 03:18:40 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:18:40 | INFO     | app.agent.permissions | Pending action expired: shutdown
+2026-09-11 03:18:40 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:19:51 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-2\test_open_app_unknown_is_grace0\test.db
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:19:51 | INFO     | app.core.orchestrator | Handle: 'open definitely-not-an-app'
+2026-09-11 03:19:51 | INFO     | app.agent.planner | Plan: type=tool_call tool=open_app args={'application': 'definitely-not-an-app'}
+2026-09-11 03:19:51 | INFO     | app.tools.apps.detector | App detector indexed 95 shortcuts
+2026-09-11 03:19:51 | INFO     | app.tools.apps.launcher | Application not found: definitely-not-an-app
+2026-09-11 03:19:51 | INFO     | app.agent.executor | Tool open_app -> success=False
+2026-09-11 03:19:51 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-2\test_shutdown_requires_confirm0\test.db
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:19:51 | INFO     | app.core.orchestrator | Handle: 'shutdown my computer'
+2026-09-11 03:19:51 | INFO     | app.agent.planner | Plan: type=tool_call tool=shutdown args={}
+2026-09-11 03:19:51 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:19:51 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:19:51 | INFO     | app.agent.executor | Dev-mode simulation for shutdown
+2026-09-11 03:19:51 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-2\test_shutdown_cancelled_by_no0\test.db
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:19:51 | INFO     | app.core.orchestrator | Handle: 'restart my computer'
+2026-09-11 03:19:51 | INFO     | app.agent.planner | Plan: type=tool_call tool=restart args={}
+2026-09-11 03:19:51 | INFO     | app.agent.permissions | Staged pending action: restart {}
+2026-09-11 03:19:51 | INFO     | app.core.orchestrator | Handle: 'no'
+2026-09-11 03:19:51 | INFO     | app.core.orchestrator | User cancelled pending restart
+2026-09-11 03:19:51 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-2\test_confirmation_expires0\test.db
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:19:51 | INFO     | app.core.orchestrator | Handle: 'shutdown'
+2026-09-11 03:19:51 | INFO     | app.agent.planner | Plan: type=tool_call tool=shutdown args={}
+2026-09-11 03:19:51 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:19:51 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:19:51 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:19:51 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-2\test_yes_without_pending_is_a_0\test.db
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:19:51 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:19:51 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:19:51 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-2\test_whatsapp_ambiguous_contac0\test.db
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:19:51 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:19:52 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-2\test_whatsapp_unambiguous_flow0\test.db
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:19:52 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-2\test_failed_tool_never_crashes0\test.db
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:19:52 | INFO     | app.core.orchestrator | Handle: 'open notepad'
+2026-09-11 03:19:52 | INFO     | app.agent.planner | Plan: type=tool_call tool=open_app args={'application': 'notepad'}
+2026-09-11 03:19:52 | ERROR    | app.agent.executor | Tool open_app crashed
+Traceback (most recent call last):
+  File "C:\llm-model\app\agent\executor.py", line 35, in execute
+    result = tool.execute(**arguments)
+  File "C:\llm-model\tests\test_commands.py", line 94, in boom
+    raise RuntimeError("boom")
+RuntimeError: boom
+2026-09-11 03:19:52 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-2\test_commands_are_persisted0\test.db
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:19:52 | INFO     | app.core.orchestrator | Handle: 'hello'
+2026-09-11 03:19:52 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:19:52 | WARNING  | app.agent.permissions | Blocked tool requested: disable_firewall
+2026-09-11 03:19:52 | WARNING  | app.agent.permissions | Blocked tool requested: disable_antivirus
+2026-09-11 03:19:52 | WARNING  | app.agent.permissions | Blocked tool requested: run_shell
+2026-09-11 03:19:52 | WARNING  | app.agent.permissions | Blocked tool requested: execute_python
+2026-09-11 03:19:52 | WARNING  | app.agent.permissions | Blocked tool requested: run_powershell
+2026-09-11 03:19:52 | WARNING  | app.agent.permissions | Blocked tool requested: read_credentials
+2026-09-11 03:19:52 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:19:52 | INFO     | app.agent.permissions | Pending action expired: shutdown
+2026-09-11 03:19:52 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:19:52 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:20:09 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-3\test_whatsapp_ambiguous_contac0\test.db
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:20:09 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-3\test_whatsapp_unambiguous_flow0\test.db
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:20:09 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:20:17 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-4\test_whatsapp_ambiguous_contac0\test.db
+2026-09-11 03:20:17 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:20:17 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:20:17 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:20:17 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:20:17 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:20:17 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:20:17 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:20:17 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:20:17 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:20:17 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:20:17 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:20:17 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:22:25 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-5\test_open_app_unknown_is_grace0\test.db
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:22:26 | INFO     | app.core.orchestrator | Handle: 'open definitely-not-an-app'
+2026-09-11 03:22:26 | INFO     | app.agent.planner | Plan: type=tool_call tool=open_app args={'application': 'definitely-not-an-app'}
+2026-09-11 03:22:26 | INFO     | app.tools.apps.detector | App detector indexed 95 shortcuts
+2026-09-11 03:22:26 | INFO     | app.tools.apps.launcher | Application not found: definitely-not-an-app
+2026-09-11 03:22:26 | INFO     | app.agent.executor | Tool open_app -> success=False
+2026-09-11 03:22:26 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-5\test_shutdown_requires_confirm0\test.db
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:22:26 | INFO     | app.core.orchestrator | Handle: 'shutdown my computer'
+2026-09-11 03:22:26 | INFO     | app.agent.planner | Plan: type=tool_call tool=shutdown args={}
+2026-09-11 03:22:26 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:22:26 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:22:26 | INFO     | app.agent.executor | Dev-mode simulation for shutdown
+2026-09-11 03:22:26 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-5\test_shutdown_cancelled_by_no0\test.db
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:22:26 | INFO     | app.core.orchestrator | Handle: 'restart my computer'
+2026-09-11 03:22:26 | INFO     | app.agent.planner | Plan: type=tool_call tool=restart args={}
+2026-09-11 03:22:26 | INFO     | app.agent.permissions | Staged pending action: restart {}
+2026-09-11 03:22:26 | INFO     | app.core.orchestrator | Handle: 'no'
+2026-09-11 03:22:26 | INFO     | app.core.orchestrator | User cancelled pending restart
+2026-09-11 03:22:26 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-5\test_confirmation_expires0\test.db
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:22:26 | INFO     | app.core.orchestrator | Handle: 'shutdown'
+2026-09-11 03:22:26 | INFO     | app.agent.planner | Plan: type=tool_call tool=shutdown args={}
+2026-09-11 03:22:26 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:22:26 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:22:26 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:22:26 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-5\test_yes_without_pending_is_a_0\test.db
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:22:26 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:22:26 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:22:26 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-5\test_whatsapp_ambiguous_contac0\test.db
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:22:26 | INFO     | app.core.orchestrator | Handle: 'call Ahmed'
+2026-09-11 03:22:26 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:22:26 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-5\test_whatsapp_unambiguous_flow0\test.db
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:22:26 | INFO     | app.core.orchestrator | Handle: 'call Ahmed'
+2026-09-11 03:22:26 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:22:26 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:22:26 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:22:26 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-5\test_failed_tool_never_crashes0\test.db
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:22:26 | INFO     | app.core.orchestrator | Handle: 'open notepad'
+2026-09-11 03:22:26 | INFO     | app.agent.planner | Plan: type=tool_call tool=open_app args={'application': 'notepad'}
+2026-09-11 03:22:26 | ERROR    | app.agent.executor | Tool open_app crashed
+Traceback (most recent call last):
+  File "C:\llm-model\app\agent\executor.py", line 35, in execute
+    result = tool.execute(**arguments)
+  File "C:\llm-model\tests\test_commands.py", line 98, in boom
+    raise RuntimeError("boom")
+RuntimeError: boom
+2026-09-11 03:22:26 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-5\test_commands_are_persisted0\test.db
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:22:26 | INFO     | app.core.orchestrator | Handle: 'hello'
+2026-09-11 03:22:26 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:22:26 | WARNING  | app.agent.permissions | Blocked tool requested: run_shell
+2026-09-11 03:22:26 | WARNING  | app.agent.permissions | Blocked tool requested: disable_firewall
+2026-09-11 03:22:26 | WARNING  | app.agent.permissions | Blocked tool requested: execute_python
+2026-09-11 03:22:26 | WARNING  | app.agent.permissions | Blocked tool requested: run_powershell
+2026-09-11 03:22:26 | WARNING  | app.agent.permissions | Blocked tool requested: read_credentials
+2026-09-11 03:22:26 | WARNING  | app.agent.permissions | Blocked tool requested: disable_antivirus
+2026-09-11 03:22:26 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:22:26 | INFO     | app.agent.permissions | Pending action expired: shutdown
+2026-09-11 03:22:26 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:22:26 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:24:34 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-6\test_open_app_unknown_is_grace0\test.db
+2026-09-11 03:24:34 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:24:34 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:24:34 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:24:34 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:24:34 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:24:34 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:24:34 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:24:34 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:24:34 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:24:34 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:24:34 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:24:34 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:24:34 | INFO     | app.core.orchestrator | Handle: 'open definitely-not-an-app'
+2026-09-11 03:24:34 | INFO     | app.agent.planner | Plan: type=tool_call tool=open_app args={'application': 'definitely-not-an-app'}
+2026-09-11 03:24:34 | INFO     | app.tools.apps.detector | App detector indexed 95 shortcuts
+2026-09-11 03:24:34 | INFO     | app.tools.apps.launcher | Application not found: definitely-not-an-app
+2026-09-11 03:24:34 | INFO     | app.agent.executor | Tool open_app -> success=False
+2026-09-11 03:24:35 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-6\test_shutdown_requires_confirm0\test.db
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:24:35 | INFO     | app.core.orchestrator | Handle: 'shutdown my computer'
+2026-09-11 03:24:35 | INFO     | app.agent.planner | Plan: type=tool_call tool=shutdown args={}
+2026-09-11 03:24:35 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:24:35 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:24:35 | INFO     | app.agent.executor | Dev-mode simulation for shutdown
+2026-09-11 03:24:35 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-6\test_shutdown_cancelled_by_no0\test.db
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:24:35 | INFO     | app.core.orchestrator | Handle: 'restart my computer'
+2026-09-11 03:24:35 | INFO     | app.agent.planner | Plan: type=tool_call tool=restart args={}
+2026-09-11 03:24:35 | INFO     | app.agent.permissions | Staged pending action: restart {}
+2026-09-11 03:24:35 | INFO     | app.core.orchestrator | Handle: 'no'
+2026-09-11 03:24:35 | INFO     | app.core.orchestrator | User cancelled pending restart
+2026-09-11 03:24:35 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-6\test_confirmation_expires0\test.db
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:24:35 | INFO     | app.core.orchestrator | Handle: 'shutdown'
+2026-09-11 03:24:35 | INFO     | app.agent.planner | Plan: type=tool_call tool=shutdown args={}
+2026-09-11 03:24:35 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:24:35 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:24:35 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:24:35 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-6\test_yes_without_pending_is_a_0\test.db
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:24:35 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:24:35 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:24:35 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-6\test_whatsapp_ambiguous_contac0\test.db
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:24:35 | INFO     | app.core.orchestrator | Handle: 'call Ahmed'
+2026-09-11 03:24:35 | INFO     | app.agent.planner | Plan: type=tool_call tool=whatsapp_call args={'contact': 'Ahmed'}
+2026-09-11 03:24:35 | INFO     | app.agent.permissions | Staged pending action: whatsapp_call {'contact': 'Ahmed'}
+2026-09-11 03:24:35 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:24:35 | INFO     | app.agent.executor | Tool whatsapp_call -> success=False
+2026-09-11 03:24:35 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-6\test_whatsapp_unambiguous_flow0\test.db
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:24:35 | INFO     | app.core.orchestrator | Handle: 'call Ahmed'
+2026-09-11 03:24:35 | INFO     | app.agent.planner | Plan: type=tool_call tool=whatsapp_call args={'contact': 'Ahmed'}
+2026-09-11 03:24:35 | INFO     | app.agent.permissions | Staged pending action: whatsapp_call {'contact': 'Ahmed'}
+2026-09-11 03:24:35 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:24:35 | INFO     | app.tools.whatsapp.whatsapp | WhatsApp call flow opened for Ahmed
+2026-09-11 03:24:35 | INFO     | app.agent.executor | Tool whatsapp_call -> success=True
+2026-09-11 03:24:35 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-6\test_failed_tool_never_crashes0\test.db
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:24:35 | INFO     | app.core.orchestrator | Handle: 'open notepad'
+2026-09-11 03:24:35 | INFO     | app.agent.planner | Plan: type=tool_call tool=open_app args={'application': 'notepad'}
+2026-09-11 03:24:35 | ERROR    | app.agent.executor | Tool open_app crashed
+Traceback (most recent call last):
+  File "C:\llm-model\app\agent\executor.py", line 35, in execute
+    result = tool.execute(**arguments)
+  File "C:\llm-model\tests\test_commands.py", line 98, in boom
+    raise RuntimeError("boom")
+RuntimeError: boom
+2026-09-11 03:24:35 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-6\test_commands_are_persisted0\test.db
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:24:35 | INFO     | app.core.orchestrator | Handle: 'hello'
+2026-09-11 03:24:35 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:24:35 | WARNING  | app.agent.permissions | Blocked tool requested: run_powershell
+2026-09-11 03:24:35 | WARNING  | app.agent.permissions | Blocked tool requested: run_shell
+2026-09-11 03:24:35 | WARNING  | app.agent.permissions | Blocked tool requested: read_credentials
+2026-09-11 03:24:35 | WARNING  | app.agent.permissions | Blocked tool requested: disable_antivirus
+2026-09-11 03:24:35 | WARNING  | app.agent.permissions | Blocked tool requested: execute_python
+2026-09-11 03:24:35 | WARNING  | app.agent.permissions | Blocked tool requested: disable_firewall
+2026-09-11 03:24:35 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:24:35 | INFO     | app.agent.permissions | Pending action expired: shutdown
+2026-09-11 03:24:35 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:24:35 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:25:34 | INFO     | app.storage.database | Database ready at C:\llm-model\data\assistant.db
+2026-09-11 03:25:34 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:25:34 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:25:34 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:25:34 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:25:34 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:25:34 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:25:34 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:25:34 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:25:34 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:25:34 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:25:34 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:25:34 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:25:34 | INFO     | app.core.orchestrator | Handle: 'hello'
+2026-09-11 03:25:34 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:25:36 | INFO     | app.storage.database | Database ready at C:\llm-model\data\assistant.db
+2026-09-11 03:25:36 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:25:36 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:25:36 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:25:36 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:25:36 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:25:36 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:25:36 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:25:36 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:25:36 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:25:36 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:25:36 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:25:36 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:25:36 | INFO     | app.core.orchestrator | Handle: 'what is my CPU usage?'
+2026-09-11 03:25:36 | INFO     | app.agent.planner | Plan: type=tool_call tool=system_info args={'detail': 'cpu'}
+2026-09-11 03:25:37 | INFO     | app.tools.system.system_info | system_info: {'cpu_percent': 75.3}
+2026-09-11 03:25:37 | INFO     | app.agent.executor | Tool system_info -> success=True
+2026-09-11 03:25:39 | INFO     | app.storage.database | Database ready at C:\llm-model\data\assistant.db
+2026-09-11 03:25:39 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:25:39 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:25:39 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:25:39 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:25:39 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:25:39 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:25:39 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:25:39 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:25:39 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:25:39 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:25:39 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:25:39 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:25:39 | INFO     | app.core.orchestrator | Handle: 'shutdown my computer'
+2026-09-11 03:25:39 | INFO     | app.agent.planner | Plan: type=tool_call tool=shutdown args={}
+2026-09-11 03:25:39 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:25:40 | INFO     | app.storage.database | Database ready at C:\llm-model\data\assistant.db
+2026-09-11 03:25:41 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:25:41 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:25:41 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:25:41 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:25:41 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:25:41 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:25:41 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:25:41 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:25:41 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:25:41 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:25:41 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:25:41 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:25:41 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:25:41 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:27:51 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:27:51 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:27:51 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:27:51 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:27:51 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:27:51 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:27:51 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:27:51 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:27:51 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:27:51 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:27:51 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:27:51 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:27:51 | INFO     | app.core.orchestrator | Handle: 'hello'
+2026-09-11 03:27:51 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:41:32 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-7\test_open_app_unknown_is_grace0\test.db
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:41:32 | INFO     | app.core.orchestrator | Handle: 'open definitely-not-an-app'
+2026-09-11 03:41:32 | INFO     | app.agent.planner | Plan: type=tool_call tool=open_app args={'application': 'definitely-not-an-app'}
+2026-09-11 03:41:32 | INFO     | app.tools.apps.detector | App detector indexed 95 shortcuts
+2026-09-11 03:41:32 | INFO     | app.tools.apps.launcher | Application not found: definitely-not-an-app
+2026-09-11 03:41:32 | INFO     | app.agent.executor | Tool open_app -> success=False
+2026-09-11 03:41:32 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-7\test_shutdown_requires_confirm0\test.db
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:41:32 | INFO     | app.core.orchestrator | Handle: 'shutdown my computer'
+2026-09-11 03:41:32 | INFO     | app.agent.planner | Plan: type=tool_call tool=shutdown args={}
+2026-09-11 03:41:32 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:41:32 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:41:32 | INFO     | app.agent.executor | Dev-mode simulation for shutdown
+2026-09-11 03:41:32 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-7\test_shutdown_cancelled_by_no0\test.db
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:41:32 | INFO     | app.core.orchestrator | Handle: 'restart my computer'
+2026-09-11 03:41:32 | INFO     | app.agent.planner | Plan: type=tool_call tool=restart args={}
+2026-09-11 03:41:32 | INFO     | app.agent.permissions | Staged pending action: restart {}
+2026-09-11 03:41:32 | INFO     | app.core.orchestrator | Handle: 'no'
+2026-09-11 03:41:32 | INFO     | app.core.orchestrator | User cancelled pending restart
+2026-09-11 03:41:32 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-7\test_confirmation_expires0\test.db
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:41:32 | INFO     | app.core.orchestrator | Handle: 'shutdown'
+2026-09-11 03:41:32 | INFO     | app.agent.planner | Plan: type=tool_call tool=shutdown args={}
+2026-09-11 03:41:32 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:41:32 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:41:32 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:41:32 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-7\test_yes_without_pending_is_a_0\test.db
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:41:32 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:41:32 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:41:32 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-7\test_whatsapp_ambiguous_contac0\test.db
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:41:32 | INFO     | app.core.orchestrator | Handle: 'call Ahmed'
+2026-09-11 03:41:32 | INFO     | app.agent.planner | Plan: type=tool_call tool=whatsapp_call args={'contact': 'Ahmed'}
+2026-09-11 03:41:32 | INFO     | app.agent.permissions | Staged pending action: whatsapp_call {'contact': 'Ahmed'}
+2026-09-11 03:41:32 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:41:32 | INFO     | app.agent.executor | Tool whatsapp_call -> success=False
+2026-09-11 03:41:32 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-7\test_whatsapp_unambiguous_flow0\test.db
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:41:32 | INFO     | app.core.orchestrator | Handle: 'call Ahmed'
+2026-09-11 03:41:32 | INFO     | app.agent.planner | Plan: type=tool_call tool=whatsapp_call args={'contact': 'Ahmed'}
+2026-09-11 03:41:32 | INFO     | app.agent.permissions | Staged pending action: whatsapp_call {'contact': 'Ahmed'}
+2026-09-11 03:41:32 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:41:32 | INFO     | app.tools.whatsapp.whatsapp | WhatsApp call flow opened for Ahmed
+2026-09-11 03:41:32 | INFO     | app.agent.executor | Tool whatsapp_call -> success=True
+2026-09-11 03:41:32 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-7\test_failed_tool_never_crashes0\test.db
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:41:32 | INFO     | app.core.orchestrator | Handle: 'open notepad'
+2026-09-11 03:41:32 | INFO     | app.agent.planner | Plan: type=tool_call tool=open_app args={'application': 'notepad'}
+2026-09-11 03:41:32 | ERROR    | app.agent.executor | Tool open_app crashed
+Traceback (most recent call last):
+  File "C:\llm-model\app\agent\executor.py", line 35, in execute
+    result = tool.execute(**arguments)
+  File "C:\llm-model\tests\test_commands.py", line 98, in boom
+    raise RuntimeError("boom")
+RuntimeError: boom
+2026-09-11 03:41:32 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-7\test_commands_are_persisted0\test.db
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:41:32 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:41:32 | INFO     | app.core.orchestrator | Handle: 'hello'
+2026-09-11 03:41:32 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:41:32 | WARNING  | app.agent.permissions | Blocked tool requested: disable_antivirus
+2026-09-11 03:41:32 | WARNING  | app.agent.permissions | Blocked tool requested: disable_firewall
+2026-09-11 03:41:32 | WARNING  | app.agent.permissions | Blocked tool requested: run_shell
+2026-09-11 03:41:32 | WARNING  | app.agent.permissions | Blocked tool requested: run_powershell
+2026-09-11 03:41:32 | WARNING  | app.agent.permissions | Blocked tool requested: execute_python
+2026-09-11 03:41:32 | WARNING  | app.agent.permissions | Blocked tool requested: read_credentials
+2026-09-11 03:41:32 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:41:32 | INFO     | app.agent.permissions | Pending action expired: shutdown
+2026-09-11 03:41:33 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:41:33 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:41:33 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:41:33 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:41:33 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:41:33 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:41:33 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:41:33 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:41:33 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:41:33 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:41:33 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:41:33 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:41:33 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:41:45 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-8\test_open_app_unknown_is_grace0\test.db
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:41:45 | INFO     | app.core.orchestrator | Handle: 'open definitely-not-an-app'
+2026-09-11 03:41:45 | INFO     | app.agent.planner | Plan: type=tool_call tool=open_app args={'application': 'definitely-not-an-app'}
+2026-09-11 03:41:45 | INFO     | app.tools.apps.detector | App detector indexed 95 shortcuts
+2026-09-11 03:41:45 | INFO     | app.tools.apps.launcher | Application not found: definitely-not-an-app
+2026-09-11 03:41:45 | INFO     | app.agent.executor | Tool open_app -> success=False
+2026-09-11 03:41:45 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-8\test_shutdown_requires_confirm0\test.db
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:41:45 | INFO     | app.core.orchestrator | Handle: 'shutdown my computer'
+2026-09-11 03:41:45 | INFO     | app.agent.planner | Plan: type=tool_call tool=shutdown args={}
+2026-09-11 03:41:45 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:41:45 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:41:45 | INFO     | app.agent.executor | Dev-mode simulation for shutdown
+2026-09-11 03:41:45 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-8\test_shutdown_cancelled_by_no0\test.db
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:41:45 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:41:45 | INFO     | app.core.orchestrator | Handle: 'restart my computer'
+2026-09-11 03:41:45 | INFO     | app.agent.planner | Plan: type=tool_call tool=restart args={}
+2026-09-11 03:41:45 | INFO     | app.agent.permissions | Staged pending action: restart {}
+2026-09-11 03:41:45 | INFO     | app.core.orchestrator | Handle: 'no'
+2026-09-11 03:41:45 | INFO     | app.core.orchestrator | User cancelled pending restart
+2026-09-11 03:41:46 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-8\test_confirmation_expires0\test.db
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:41:46 | INFO     | app.core.orchestrator | Handle: 'shutdown'
+2026-09-11 03:41:46 | INFO     | app.agent.planner | Plan: type=tool_call tool=shutdown args={}
+2026-09-11 03:41:46 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:41:46 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:41:46 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:41:46 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-8\test_yes_without_pending_is_a_0\test.db
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:41:46 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:41:46 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:41:46 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-8\test_whatsapp_ambiguous_contac0\test.db
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:41:46 | INFO     | app.core.orchestrator | Handle: 'call Ahmed'
+2026-09-11 03:41:46 | INFO     | app.agent.planner | Plan: type=tool_call tool=whatsapp_call args={'contact': 'Ahmed'}
+2026-09-11 03:41:46 | INFO     | app.agent.permissions | Staged pending action: whatsapp_call {'contact': 'Ahmed'}
+2026-09-11 03:41:46 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:41:46 | INFO     | app.agent.executor | Tool whatsapp_call -> success=False
+2026-09-11 03:41:46 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-8\test_whatsapp_unambiguous_flow0\test.db
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:41:46 | INFO     | app.core.orchestrator | Handle: 'call Ahmed'
+2026-09-11 03:41:46 | INFO     | app.agent.planner | Plan: type=tool_call tool=whatsapp_call args={'contact': 'Ahmed'}
+2026-09-11 03:41:46 | INFO     | app.agent.permissions | Staged pending action: whatsapp_call {'contact': 'Ahmed'}
+2026-09-11 03:41:46 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:41:46 | INFO     | app.tools.whatsapp.whatsapp | WhatsApp call flow opened for Ahmed
+2026-09-11 03:41:46 | INFO     | app.agent.executor | Tool whatsapp_call -> success=True
+2026-09-11 03:41:46 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-8\test_failed_tool_never_crashes0\test.db
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:41:46 | INFO     | app.core.orchestrator | Handle: 'open notepad'
+2026-09-11 03:41:46 | INFO     | app.agent.planner | Plan: type=tool_call tool=open_app args={'application': 'notepad'}
+2026-09-11 03:41:46 | ERROR    | app.agent.executor | Tool open_app crashed
+Traceback (most recent call last):
+  File "C:\llm-model\app\agent\executor.py", line 35, in execute
+    result = tool.execute(**arguments)
+  File "C:\llm-model\tests\test_commands.py", line 98, in boom
+    raise RuntimeError("boom")
+RuntimeError: boom
+2026-09-11 03:41:46 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-8\test_commands_are_persisted0\test.db
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:41:46 | INFO     | app.core.orchestrator | Handle: 'hello'
+2026-09-11 03:41:46 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:41:46 | WARNING  | app.agent.permissions | Blocked tool requested: disable_firewall
+2026-09-11 03:41:46 | WARNING  | app.agent.permissions | Blocked tool requested: read_credentials
+2026-09-11 03:41:46 | WARNING  | app.agent.permissions | Blocked tool requested: disable_antivirus
+2026-09-11 03:41:46 | WARNING  | app.agent.permissions | Blocked tool requested: execute_python
+2026-09-11 03:41:46 | WARNING  | app.agent.permissions | Blocked tool requested: run_powershell
+2026-09-11 03:41:46 | WARNING  | app.agent.permissions | Blocked tool requested: run_shell
+2026-09-11 03:41:46 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:41:46 | INFO     | app.agent.permissions | Pending action expired: shutdown
+2026-09-11 03:41:46 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:41:46 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:57:34 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-9\test_open_app_unknown_is_grace0\test.db
+2026-09-11 03:57:34 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:57:34 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:57:34 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:57:34 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:57:34 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:57:34 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:57:34 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:57:34 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:57:34 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:57:34 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:57:34 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:57:34 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:57:34 | INFO     | app.core.orchestrator | Handle: 'open definitely-not-an-app'
+2026-09-11 03:57:38 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 03:57:45 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 03:57:45 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 03:57:45 | INFO     | app.agent.planner | Plan: type=tool_call tool=open_app args={'application': 'definitely-not-an-app'}
+2026-09-11 03:57:45 | INFO     | app.tools.apps.detector | App detector indexed 95 shortcuts
+2026-09-11 03:57:45 | INFO     | app.tools.apps.launcher | Application not found: definitely-not-an-app
+2026-09-11 03:57:45 | INFO     | app.agent.executor | Tool open_app -> success=False
+2026-09-11 03:57:45 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-9\test_shutdown_requires_confirm0\test.db
+2026-09-11 03:57:45 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:57:45 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:57:45 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:57:45 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:57:45 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:57:45 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:57:45 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:57:45 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:57:45 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:57:45 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:57:45 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:57:45 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:57:45 | INFO     | app.core.orchestrator | Handle: 'shutdown my computer'
+2026-09-11 03:57:45 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 03:57:47 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 03:57:47 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 03:57:47 | INFO     | app.agent.planner | Plan: type=tool_call tool=shutdown args={}
+2026-09-11 03:57:47 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:57:47 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:57:47 | INFO     | app.agent.executor | Dev-mode simulation for shutdown
+2026-09-11 03:57:47 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-9\test_shutdown_cancelled_by_no0\test.db
+2026-09-11 03:57:47 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:57:47 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:57:47 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:57:47 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:57:47 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:57:47 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:57:47 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:57:47 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:57:47 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:57:47 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:57:47 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:57:47 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:57:47 | INFO     | app.core.orchestrator | Handle: 'restart my computer'
+2026-09-11 03:57:47 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 03:57:50 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 03:57:50 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 03:57:50 | INFO     | app.agent.planner | Plan: type=tool_call tool=restart args={}
+2026-09-11 03:57:50 | INFO     | app.agent.permissions | Staged pending action: restart {}
+2026-09-11 03:57:50 | INFO     | app.core.orchestrator | Handle: 'no'
+2026-09-11 03:57:50 | INFO     | app.core.orchestrator | User cancelled pending restart
+2026-09-11 03:57:50 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-9\test_confirmation_expires0\test.db
+2026-09-11 03:57:50 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:57:50 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:57:50 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:57:50 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:57:50 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:57:50 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:57:50 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:57:50 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:57:50 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:57:50 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:57:50 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:57:50 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:57:50 | INFO     | app.core.orchestrator | Handle: 'shutdown'
+2026-09-11 03:57:50 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 03:57:52 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 03:57:52 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 03:57:52 | INFO     | app.agent.planner | Plan: type=tool_call tool=shutdown args={}
+2026-09-11 03:57:52 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:57:52 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:57:52 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 03:57:55 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 03:57:55 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 03:57:55 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:57:55 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-9\test_yes_without_pending_is_a_0\test.db
+2026-09-11 03:57:55 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:57:55 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:57:55 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:57:55 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:57:55 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:57:55 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:57:55 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:57:55 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:57:55 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:57:55 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:57:55 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:57:55 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:57:55 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:57:55 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 03:57:57 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 03:57:57 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 03:57:57 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:57:57 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-9\test_whatsapp_ambiguous_contac0\test.db
+2026-09-11 03:57:57 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:57:57 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:57:57 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:57:57 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:57:57 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:57:57 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:57:57 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:57:57 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:57:57 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:57:57 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:57:57 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:57:57 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:57:57 | INFO     | app.core.orchestrator | Handle: 'call Ahmed'
+2026-09-11 03:57:57 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 03:57:59 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 03:57:59 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 03:57:59 | INFO     | app.agent.planner | Plan: type=tool_call tool=whatsapp_call args={'contact': 'Ahmed'}
+2026-09-11 03:57:59 | INFO     | app.agent.permissions | Staged pending action: whatsapp_call {'contact': 'Ahmed'}
+2026-09-11 03:57:59 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:57:59 | INFO     | app.agent.executor | Tool whatsapp_call -> success=False
+2026-09-11 03:57:59 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-9\test_whatsapp_unambiguous_flow0\test.db
+2026-09-11 03:57:59 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:57:59 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:57:59 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:57:59 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:57:59 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:57:59 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:57:59 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:57:59 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:57:59 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:57:59 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:57:59 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:57:59 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:57:59 | INFO     | app.core.orchestrator | Handle: 'call Ahmed'
+2026-09-11 03:57:59 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 03:58:02 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 03:58:02 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 03:58:02 | INFO     | app.agent.planner | Plan: type=tool_call tool=whatsapp_call args={'contact': 'Ahmed'}
+2026-09-11 03:58:02 | INFO     | app.agent.permissions | Staged pending action: whatsapp_call {'contact': 'Ahmed'}
+2026-09-11 03:58:02 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 03:58:02 | INFO     | app.tools.whatsapp.whatsapp | WhatsApp call flow opened for Ahmed
+2026-09-11 03:58:02 | INFO     | app.agent.executor | Tool whatsapp_call -> success=True
+2026-09-11 03:58:02 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-9\test_failed_tool_never_crashes0\test.db
+2026-09-11 03:58:02 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:58:02 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:58:02 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:58:02 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:58:02 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:58:02 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:58:02 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:58:02 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:58:02 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:58:02 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:58:02 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:58:02 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:58:02 | INFO     | app.core.orchestrator | Handle: 'open notepad'
+2026-09-11 03:58:02 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 03:58:05 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 03:58:05 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 03:58:05 | INFO     | app.agent.planner | Plan: type=tool_call tool=open_app args={'application': 'notepad'}
+2026-09-11 03:58:05 | ERROR    | app.agent.executor | Tool open_app crashed
+Traceback (most recent call last):
+  File "C:\llm-model\app\agent\executor.py", line 35, in execute
+    result = tool.execute(**arguments)
+  File "C:\llm-model\tests\test_commands.py", line 98, in boom
+    raise RuntimeError("boom")
+RuntimeError: boom
+2026-09-11 03:58:05 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-9\test_commands_are_persisted0\test.db
+2026-09-11 03:58:05 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:58:05 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:58:05 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:58:05 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:58:05 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:58:05 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:58:05 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:58:05 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:58:05 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:58:05 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:58:05 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:58:05 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:58:05 | INFO     | app.core.orchestrator | Handle: 'hello'
+2026-09-11 03:58:05 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 03:58:07 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 03:58:07 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 03:58:07 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 03:58:07 | WARNING  | app.agent.permissions | Blocked tool requested: run_powershell
+2026-09-11 03:58:07 | WARNING  | app.agent.permissions | Blocked tool requested: read_credentials
+2026-09-11 03:58:07 | WARNING  | app.agent.permissions | Blocked tool requested: run_shell
+2026-09-11 03:58:07 | WARNING  | app.agent.permissions | Blocked tool requested: disable_firewall
+2026-09-11 03:58:07 | WARNING  | app.agent.permissions | Blocked tool requested: execute_python
+2026-09-11 03:58:07 | WARNING  | app.agent.permissions | Blocked tool requested: disable_antivirus
+2026-09-11 03:58:07 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:58:07 | INFO     | app.agent.permissions | Pending action expired: shutdown
+2026-09-11 03:58:07 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 03:58:07 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:58:07 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:58:07 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:58:07 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:58:07 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:58:07 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:58:07 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:58:07 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:58:07 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:58:07 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:58:07 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:58:07 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 03:59:44 | INFO     | app.storage.database | Database ready at C:\llm-model\data\assistant.db
+2026-09-11 03:59:44 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 03:59:44 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 03:59:44 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 03:59:44 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 03:59:44 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 03:59:44 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 03:59:44 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 03:59:44 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 03:59:44 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 03:59:44 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 03:59:44 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 03:59:44 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 04:00:04 | INFO     | app.core.orchestrator | Handle: 'open notepad'
+2026-09-11 04:00:06 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 04:00:09 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:00:09 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:00:09 | INFO     | app.agent.planner | Plan: type=tool_call tool=open_app args={'application': 'notepad'}
+2026-09-11 04:00:09 | INFO     | app.tools.apps.detector | App detector indexed 95 shortcuts
+2026-09-11 04:00:10 | INFO     | app.tools.apps.launcher | Launched notepad -> C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Notepad.lnk
+2026-09-11 04:00:10 | INFO     | app.agent.executor | Tool open_app -> success=True
+2026-09-11 04:00:20 | INFO     | app.core.orchestrator | Handle: 'open chrome'
+2026-09-11 04:00:20 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 04:00:24 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:00:24 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:00:24 | INFO     | app.agent.planner | Plan: type=tool_call tool=open_app args={'application': 'chrome'}
+2026-09-11 04:00:24 | INFO     | app.tools.apps.launcher | Launched chrome -> C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Google Chrome.lnk
+2026-09-11 04:00:24 | INFO     | app.agent.executor | Tool open_app -> success=True
+2026-09-11 04:00:37 | INFO     | app.core.orchestrator | Handle: 'open WhatsApp'
+2026-09-11 04:00:37 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 04:00:40 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:00:40 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:00:40 | INFO     | app.agent.planner | Plan: type=tool_call tool=open_whatsapp args={}
+2026-09-11 04:00:40 | INFO     | app.tools.apps.detector | App detector indexed 95 shortcuts
+2026-09-11 04:00:40 | INFO     | app.agent.executor | Tool open_whatsapp -> success=False
+2026-09-11 04:00:48 | INFO     | app.core.orchestrator | Handle: 'open whatsapp'
+2026-09-11 04:00:48 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 04:00:51 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:00:51 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:00:51 | INFO     | app.agent.planner | Plan: type=tool_call tool=open_whatsapp args={}
+2026-09-11 04:00:51 | INFO     | app.agent.executor | Tool open_whatsapp -> success=False
+2026-09-11 04:19:35 | INFO     | app.storage.database | Database ready at C:\llm-model\data\assistant.db
+2026-09-11 04:19:35 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 04:19:35 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 04:19:35 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 04:19:35 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 04:19:35 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 04:19:35 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 04:19:35 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 04:19:35 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 04:19:35 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 04:19:35 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 04:19:35 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 04:19:35 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 04:19:44 | INFO     | app.core.orchestrator | Handle: 'open whatsapp'
+2026-09-11 04:19:47 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 04:19:52 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:19:52 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:19:52 | INFO     | app.agent.planner | Plan: type=tool_call tool=open_whatsapp args={}
+2026-09-11 04:19:52 | INFO     | app.tools.whatsapp.whatsapp | Launched WhatsApp using Windows AppID: 5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App
+2026-09-11 04:19:52 | INFO     | app.agent.executor | Tool open_whatsapp -> success=True
+2026-09-11 04:22:13 | INFO     | app.core.orchestrator | Handle: 'show system information'
+2026-09-11 04:22:13 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 04:22:15 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:22:15 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:22:15 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 04:22:37 | INFO     | app.core.orchestrator | Handle: 'open youtube'
+2026-09-11 04:22:37 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 04:22:41 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:22:41 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:22:41 | INFO     | app.agent.planner | Plan: type=tool_call tool=open_website args={'url': 'youtube'}
+2026-09-11 04:22:41 | INFO     | app.tools.browser.browser | Opened website: https://www.youtube.com
+2026-09-11 04:22:41 | INFO     | app.agent.executor | Tool open_website -> success=True
+2026-09-11 04:23:02 | INFO     | app.core.orchestrator | Handle: 'search for Python tutorials'
+2026-09-11 04:23:02 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 04:23:04 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:23:04 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:23:04 | INFO     | app.agent.planner | Plan: type=tool_call tool=google_search args={'query': 'python tutorials'}
+2026-09-11 04:23:04 | INFO     | app.tools.browser.browser | Web search: python tutorials
+2026-09-11 04:23:04 | INFO     | app.agent.executor | Tool google_search -> success=True
+2026-09-11 04:25:08 | INFO     | app.core.orchestrator | Handle: 'search for Python tutorials in YouTube'
+2026-09-11 04:25:08 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 04:25:10 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:25:10 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:25:10 | INFO     | app.agent.planner | Plan: type=tool_call tool=google_search args={'query': 'python tutorials in youtube'}
+2026-09-11 04:25:10 | INFO     | app.tools.browser.browser | Web search: python tutorials in youtube
+2026-09-11 04:25:10 | INFO     | app.agent.executor | Tool google_search -> success=True
+2026-09-11 04:30:52 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-10\test_open_app_unknown_is_grace0\test.db
+2026-09-11 04:30:52 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 04:30:52 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 04:30:52 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 04:30:52 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 04:30:52 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 04:30:52 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 04:30:52 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 04:30:52 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 04:30:52 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 04:30:52 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 04:30:52 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 04:30:52 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 04:30:52 | INFO     | app.core.orchestrator | Handle: 'open definitely-not-an-app'
+2026-09-11 04:30:55 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 04:30:59 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:30:59 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:30:59 | INFO     | app.agent.planner | Plan: type=tool_call tool=open_app args={'application': 'definitely-not-an-app'}
+2026-09-11 04:30:59 | INFO     | app.tools.apps.detector | App detector indexed 95 shortcuts
+2026-09-11 04:30:59 | INFO     | app.tools.apps.launcher | Application not found: definitely-not-an-app
+2026-09-11 04:30:59 | INFO     | app.agent.executor | Tool open_app -> success=False
+2026-09-11 04:30:59 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-10\test_shutdown_requires_confirm0\test.db
+2026-09-11 04:30:59 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 04:30:59 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 04:30:59 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 04:30:59 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 04:30:59 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 04:30:59 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 04:30:59 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 04:30:59 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 04:30:59 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 04:30:59 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 04:30:59 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 04:30:59 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 04:30:59 | INFO     | app.core.orchestrator | Handle: 'shutdown my computer'
+2026-09-11 04:30:59 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 04:31:02 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:31:02 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:31:02 | INFO     | app.agent.planner | Plan: type=tool_call tool=shutdown args={}
+2026-09-11 04:31:02 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 04:31:02 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 04:31:02 | INFO     | app.agent.executor | Dev-mode simulation for shutdown
+2026-09-11 04:31:02 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-10\test_shutdown_cancelled_by_no0\test.db
+2026-09-11 04:31:02 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 04:31:02 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 04:31:02 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 04:31:02 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 04:31:02 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 04:31:02 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 04:31:02 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 04:31:02 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 04:31:02 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 04:31:02 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 04:31:02 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 04:31:02 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 04:31:02 | INFO     | app.core.orchestrator | Handle: 'restart my computer'
+2026-09-11 04:31:02 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 04:31:04 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:31:04 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:31:04 | INFO     | app.agent.planner | Plan: type=tool_call tool=restart args={}
+2026-09-11 04:31:04 | INFO     | app.agent.permissions | Staged pending action: restart {}
+2026-09-11 04:31:04 | INFO     | app.core.orchestrator | Handle: 'no'
+2026-09-11 04:31:04 | INFO     | app.core.orchestrator | User cancelled pending restart
+2026-09-11 04:31:04 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-10\test_confirmation_expires0\test.db
+2026-09-11 04:31:04 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 04:31:04 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 04:31:04 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 04:31:04 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 04:31:04 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 04:31:04 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 04:31:04 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 04:31:04 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 04:31:04 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 04:31:04 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 04:31:04 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 04:31:04 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 04:31:04 | INFO     | app.core.orchestrator | Handle: 'shutdown'
+2026-09-11 04:31:04 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 04:31:06 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:31:06 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:31:06 | INFO     | app.agent.planner | Plan: type=tool_call tool=shutdown args={}
+2026-09-11 04:31:06 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 04:31:06 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 04:31:06 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 04:31:08 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:31:08 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:31:08 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 04:31:08 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-10\test_yes_without_pending_is_a_0\test.db
+2026-09-11 04:31:08 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 04:31:08 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 04:31:08 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 04:31:08 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 04:31:08 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 04:31:08 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 04:31:08 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 04:31:08 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 04:31:08 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 04:31:08 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 04:31:08 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 04:31:08 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 04:31:08 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 04:31:08 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 04:31:10 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:31:10 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:31:10 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 04:31:11 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-10\test_whatsapp_ambiguous_contac0\test.db
+2026-09-11 04:31:11 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 04:31:11 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 04:31:11 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 04:31:11 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 04:31:11 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 04:31:11 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 04:31:11 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 04:31:11 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 04:31:11 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 04:31:11 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 04:31:11 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 04:31:11 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 04:31:11 | INFO     | app.core.orchestrator | Handle: 'call Ahmed'
+2026-09-11 04:31:11 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 04:31:13 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:31:13 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:31:13 | INFO     | app.agent.planner | Plan: type=tool_call tool=whatsapp_call args={'contact': 'Ahmed'}
+2026-09-11 04:31:13 | INFO     | app.agent.permissions | Staged pending action: whatsapp_call {'contact': 'Ahmed'}
+2026-09-11 04:31:13 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 04:31:13 | INFO     | app.agent.executor | Tool whatsapp_call -> success=False
+2026-09-11 04:31:13 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-10\test_whatsapp_unambiguous_flow0\test.db
+2026-09-11 04:31:13 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 04:31:13 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 04:31:13 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 04:31:13 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 04:31:13 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 04:31:13 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 04:31:13 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 04:31:13 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 04:31:13 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 04:31:13 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 04:31:13 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 04:31:13 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 04:31:13 | INFO     | app.core.orchestrator | Handle: 'call Ahmed'
+2026-09-11 04:31:13 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 04:31:15 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:31:15 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:31:15 | INFO     | app.agent.planner | Plan: type=tool_call tool=whatsapp_call args={'contact': 'Ahmed'}
+2026-09-11 04:31:15 | INFO     | app.agent.permissions | Staged pending action: whatsapp_call {'contact': 'Ahmed'}
+2026-09-11 04:31:15 | INFO     | app.core.orchestrator | Handle: 'yes'
+2026-09-11 04:31:15 | INFO     | app.tools.whatsapp.whatsapp | WhatsApp contact flow opened for Ahmed
+2026-09-11 04:31:15 | INFO     | app.agent.executor | Tool whatsapp_call -> success=True
+2026-09-11 04:31:15 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-10\test_failed_tool_never_crashes0\test.db
+2026-09-11 04:31:15 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 04:31:15 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 04:31:15 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 04:31:15 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 04:31:15 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 04:31:15 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 04:31:15 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 04:31:15 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 04:31:15 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 04:31:15 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 04:31:15 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 04:31:15 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 04:31:15 | INFO     | app.core.orchestrator | Handle: 'open notepad'
+2026-09-11 04:31:15 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 04:31:17 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:31:17 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:31:17 | INFO     | app.agent.planner | Plan: type=tool_call tool=open_app args={'application': 'notepad'}
+2026-09-11 04:31:17 | ERROR    | app.agent.executor | Tool open_app crashed
+Traceback (most recent call last):
+  File "C:\llm-model\app\agent\executor.py", line 35, in execute
+    result = tool.execute(**arguments)
+  File "C:\llm-model\tests\test_commands.py", line 98, in boom
+    raise RuntimeError("boom")
+RuntimeError: boom
+2026-09-11 04:31:17 | INFO     | app.storage.database | Database ready at C:\Users\Muqaddas\AppData\Local\Temp\pytest-of-Muqaddas\pytest-10\test_commands_are_persisted0\test.db
+2026-09-11 04:31:17 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 04:31:17 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 04:31:17 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 04:31:17 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 04:31:17 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 04:31:17 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 04:31:17 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 04:31:17 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 04:31:17 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 04:31:17 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 04:31:17 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 04:31:17 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 04:31:17 | INFO     | app.core.orchestrator | Handle: 'hello'
+2026-09-11 04:31:17 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 04:31:19 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:31:19 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:31:19 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 04:31:19 | WARNING  | app.agent.permissions | Blocked tool requested: read_credentials
+2026-09-11 04:31:19 | WARNING  | app.agent.permissions | Blocked tool requested: disable_firewall
+2026-09-11 04:31:19 | WARNING  | app.agent.permissions | Blocked tool requested: run_powershell
+2026-09-11 04:31:19 | WARNING  | app.agent.permissions | Blocked tool requested: run_shell
+2026-09-11 04:31:19 | WARNING  | app.agent.permissions | Blocked tool requested: disable_antivirus
+2026-09-11 04:31:19 | WARNING  | app.agent.permissions | Blocked tool requested: execute_python
+2026-09-11 04:31:19 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 04:31:19 | INFO     | app.agent.permissions | Pending action expired: shutdown
+2026-09-11 04:31:19 | INFO     | app.agent.permissions | Staged pending action: shutdown {}
+2026-09-11 04:31:19 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 04:31:19 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 04:31:19 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 04:31:19 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 04:31:19 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 04:31:19 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 04:31:19 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 04:31:19 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 04:31:19 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 04:31:19 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 04:31:19 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 04:31:19 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 04:32:00 | INFO     | app.storage.database | Database ready at C:\llm-model\data\assistant.db
+2026-09-11 04:32:01 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 04:32:01 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 04:32:01 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 04:32:01 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 04:32:01 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 04:32:01 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 04:32:01 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 04:32:01 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 04:32:01 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 04:32:01 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 04:32:01 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 04:32:01 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 04:32:01 | INFO     | app.core.orchestrator | Handle: 'show system information'
+2026-09-11 04:32:04 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 04:32:08 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:32:08 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:32:08 | INFO     | app.agent.planner | Plan: type=tool_call tool=system_info args={}
+2026-09-11 04:32:08 | INFO     | app.tools.system.system_info | system_info: {'cpu_percent': 9.5, 'ram_percent': 69.7, 'ram_used_gb': 11.9, 'ram_total_gb': 17.0, 'os': 'Windows 10'}
+2026-09-11 04:32:08 | INFO     | app.agent.executor | Tool system_info -> success=True
+2026-09-11 04:33:06 | INFO     | app.storage.database | Database ready at C:\llm-model\data\assistant.db
+2026-09-11 04:33:07 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 04:33:07 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 04:33:07 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 04:33:07 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 04:33:07 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 04:33:07 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 04:33:07 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 04:33:07 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 04:33:07 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 04:33:07 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 04:33:07 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 04:33:07 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 04:33:07 | INFO     | app.core.orchestrator | Handle: 'search Python tutorials on YouTube'
+2026-09-11 04:33:09 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 04:33:12 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:33:12 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:33:12 | WARNING  | app.agent.planner | LLM requested unregistered tool: youtube_search
+2026-09-11 04:33:12 | INFO     | app.agent.planner | Plan: type=conversation tool= args={}
+2026-09-11 04:38:59 | INFO     | app.storage.database | Database ready at C:\llm-model\data\assistant.db
+2026-09-11 04:38:59 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-11 04:38:59 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-11 04:38:59 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-11 04:38:59 | INFO     | app.agent.registry | Registered tool: youtube_search (safe)
+2026-09-11 04:38:59 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-11 04:38:59 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-11 04:38:59 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-11 04:38:59 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-11 04:38:59 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-11 04:38:59 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-11 04:38:59 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-11 04:38:59 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-11 04:38:59 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-11 04:38:59 | INFO     | app.core.orchestrator | Handle: 'search Python tutorials on YouTube'
+2026-09-11 04:39:02 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-11 04:39:06 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:39:06 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-11 04:39:06 | INFO     | app.agent.planner | Plan: type=tool_call tool=youtube_search args={'query': 'python tutorials'}
+2026-09-11 04:39:06 | INFO     | app.tools.browser.browser | YouTube search: python tutorials
+2026-09-11 04:39:06 | INFO     | app.agent.executor | Tool youtube_search -> success=True
+2026-09-12 03:21:40 | INFO     | app.storage.database | Database ready at C:\llm-model\data\assistant.db
+2026-09-12 03:21:41 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-12 03:21:41 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-12 03:21:41 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-12 03:21:41 | INFO     | app.agent.registry | Registered tool: youtube_search (safe)
+2026-09-12 03:21:42 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-12 03:21:42 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-12 03:21:42 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-12 03:21:42 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-12 03:21:42 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-12 03:21:42 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-12 03:21:42 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-12 03:21:43 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-12 03:21:43 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-12 03:21:57 | INFO     | app.voice.text_to_speech | TTS spoken: "Assistant started. I'm listening."
+2026-09-12 03:22:01 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:22:14 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:22:16 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:22:30 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:22:31 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:22:43 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:22:45 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:22:55 | INFO     | app.core.assistant | Assistant stopped by user
+2026-09-12 03:24:38 | INFO     | app.storage.database | Database ready at C:\llm-model\data\assistant.db
+2026-09-12 03:24:38 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-12 03:24:38 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-12 03:24:38 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-12 03:24:38 | INFO     | app.agent.registry | Registered tool: youtube_search (safe)
+2026-09-12 03:24:38 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-12 03:24:38 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-12 03:24:38 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-12 03:24:38 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-12 03:24:38 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-12 03:24:38 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-12 03:24:38 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-12 03:24:38 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-12 03:24:38 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-12 03:24:42 | INFO     | app.voice.text_to_speech | TTS spoken: "Assistant started. I'm listening."
+2026-09-12 03:24:42 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:24:55 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:24:55 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:25:07 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:25:08 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:25:20 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:25:20 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:25:22 | INFO     | app.core.assistant | Assistant stopped by user
+2026-09-12 03:27:40 | INFO     | app.storage.database | Database ready at C:\llm-model\data\assistant.db
+2026-09-12 03:27:40 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-12 03:27:40 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-12 03:27:40 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-12 03:27:40 | INFO     | app.agent.registry | Registered tool: youtube_search (safe)
+2026-09-12 03:27:40 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-12 03:27:40 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-12 03:27:40 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-12 03:27:40 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-12 03:27:40 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-12 03:27:40 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-12 03:27:40 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-12 03:27:40 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-12 03:27:40 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-12 03:27:44 | INFO     | app.core.orchestrator | Handle: 'open whatsapp'
+2026-09-12 03:27:53 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-12 03:28:00 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-12 03:28:00 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-12 03:28:00 | INFO     | app.agent.planner | Plan: type=tool_call tool=open_whatsapp args={}
+2026-09-12 03:28:00 | INFO     | app.tools.whatsapp.whatsapp | Launched WhatsApp using Windows AppID: 5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App
+2026-09-12 03:28:00 | INFO     | app.agent.executor | Tool open_whatsapp -> success=True
+2026-09-12 03:28:12 | INFO     | app.core.orchestrator | Handle: 'open chrome'
+2026-09-12 03:28:12 | INFO     | app.core.brain | LLM thinking (gpt-4o-mini)...
+2026-09-12 03:28:14 | ERROR    | app.core.brain | LLM call failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-12 03:28:14 | WARNING  | app.agent.planner | LLM brain failed, falling back to rules: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-12 03:28:14 | INFO     | app.agent.planner | Plan: type=tool_call tool=open_app args={'application': 'chrome'}
+2026-09-12 03:28:14 | INFO     | app.tools.apps.detector | App detector indexed 95 shortcuts
+2026-09-12 03:28:15 | INFO     | app.tools.apps.launcher | Launched chrome -> C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Google Chrome.lnk
+2026-09-12 03:28:15 | INFO     | app.agent.executor | Tool open_app -> success=True
+2026-09-12 03:28:29 | INFO     | app.storage.database | Database ready at C:\llm-model\data\assistant.db
+2026-09-12 03:28:29 | INFO     | app.agent.registry | Registered tool: open_app (safe)
+2026-09-12 03:28:29 | INFO     | app.agent.registry | Registered tool: open_website (safe)
+2026-09-12 03:28:29 | INFO     | app.agent.registry | Registered tool: google_search (safe)
+2026-09-12 03:28:29 | INFO     | app.agent.registry | Registered tool: youtube_search (safe)
+2026-09-12 03:28:29 | INFO     | app.agent.registry | Registered tool: open_whatsapp (safe)
+2026-09-12 03:28:29 | INFO     | app.agent.registry | Registered tool: whatsapp_call (confirmation)
+2026-09-12 03:28:29 | INFO     | app.agent.registry | Registered tool: shutdown (confirmation)
+2026-09-12 03:28:29 | INFO     | app.agent.registry | Registered tool: restart (confirmation)
+2026-09-12 03:28:29 | INFO     | app.agent.registry | Registered tool: cancel_shutdown (safe)
+2026-09-12 03:28:29 | INFO     | app.agent.registry | Registered tool: system_info (safe)
+2026-09-12 03:28:29 | INFO     | app.agent.registry | Registered tool: search_files (safe)
+2026-09-12 03:28:29 | INFO     | app.agent.registry | Registered tool: delete_file (confirmation)
+2026-09-12 03:28:29 | INFO     | app.agent.registry | Registered tool: media_control (safe)
+2026-09-12 03:28:34 | INFO     | app.voice.text_to_speech | TTS spoken: "Assistant started. I'm listening."
+2026-09-12 03:28:34 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:28:46 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:28:47 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:28:59 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:28:59 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:29:11 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:29:12 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:29:24 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:29:24 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:29:37 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:29:37 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:29:49 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:29:49 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:30:02 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:30:02 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:30:14 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:30:15 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:30:27 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:30:27 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:30:39 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:30:40 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:30:52 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:30:52 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:31:04 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:31:05 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:31:17 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:31:17 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:31:30 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:31:30 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:31:42 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:31:43 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:31:55 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:31:55 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:32:08 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:32:08 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:32:20 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:32:20 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:32:32 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:32:33 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:32:45 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:32:45 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:32:57 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:32:58 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:33:10 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:33:10 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:33:23 | INFO     | app.voice.microphone | Microphone: no speech detected
+2026-09-12 03:33:23 | INFO     | app.voice.microphone | Microphone: listening...
+2026-09-12 03:33:28 | INFO     | app.core.assistant | Assistant stopped by user
