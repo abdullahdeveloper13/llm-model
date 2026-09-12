@@ -64,8 +64,15 @@ Copy-Item .env.example .env   # then edit .env
 | `CONFIRMATION_TIMEOUT` | `60` | Seconds before a pending confirmation expires |
 | `APP_SHORTCUTS_PATH` | `data/app_shortcuts.json` | Optional app-name → path overrides |
 | `WHISPER_MODEL` | `base` | faster-whisper model size |
+| `WHISPER_BEAM_SIZE` / `WHISPER_MIN_SILENCE_MS` | `5` / `500` | multilingual decoding and VAD tuning |
+| `WHISPER_NO_SPEECH_THRESHOLD` | `0.6` | faster-whisper silence rejection |
 | `TTS_RATE` | `180` | Speech rate (words/min) |
 | `WAKE_WORD` | `hey assistant` | Wake phrase |
+| `SAMPLE_RATE` / `FRAME_MS` | `16000` / `30` | microphone PCM and VAD frame settings |
+| `PRE_ROLL_MS` / `SILENCE_LIMIT_MS` | `300` / `750` | first-word protection and trailing silence |
+| `MAX_RECORD_MS` / `MIN_SPEECH_MS` | `15000` / `240` | utterance bounds |
+| `VAD_THRESHOLD` / `VAD_NOISE_MULTIPLIER` | `0.010` / `3.0` | adaptive microphone threshold |
+| `MICROPHONE_DEVICE` | *(default device)* | optional sounddevice input device |
 
 Never commit `.env`.
 
@@ -77,6 +84,8 @@ python run.py --voice      # full voice loop (mic + Whisper + TTS)
 python run.py --voice --wake  # require "hey assistant" before each command
 python run.py --api        # start the local FastAPI/WebSocket server too
 python run.py --say "open notepad"   # one-shot command
+python run.py --install-startup       # install per-user Windows Startup entry
+python run.py --remove-startup        # remove that entry
 ```
 
 API endpoints: `GET /health`, `POST /assistant/command` `{"text": ...}`,
@@ -84,10 +93,11 @@ API endpoints: `GET /health`, `POST /assistant/command` `{"text": ...}`,
 
 ## 7. How Voice Recognition Works
 
-`app/voice/microphone.py` records 16 kHz mono audio, waits for speech energy,
-and stops after ~0.9 s of trailing silence. `WhisperSTT` runs faster-whisper
-locally (the model downloads on first use, then it's fully offline). TTS is
-pyttsx3 (Windows SAPI5, offline).
+`app/voice/microphone.py` records 16 kHz mono float32 audio, calibrates a short
+noise floor, keeps pre-roll, and stops after configured trailing silence or a
+maximum utterance duration. `WhisperSTT` runs faster-whisper locally with
+automatic language detection and no previous-text carryover. TTS is pyttsx3
+(Windows SAPI5, offline); capture is stopped before TTS and resumed afterward.
 
 ## 8. How the AI Brain Works
 
@@ -103,25 +113,29 @@ All tools subclass `app/tools/base.Tool` (name, description, JSON schema,
 category, `execute()`). `ToolRegistry` is the single source of truth; the
 executor is the only code that calls `execute()`. Current tools:
 
-`open_app`, `open_website`, `google_search`, `open_whatsapp`, `whatsapp_call`,
+`open_app`, `close_app`, `window_control`, `open_website`, `google_search`,
+`browser_navigation`, `open_whatsapp`, `whatsapp_open_chat`,
+`whatsapp_message_auto`, `whatsapp_call_auto`, legacy `whatsapp_call`,
 `shutdown`, `restart`, `cancel_shutdown`, `system_info`, `search_files`,
-`delete_file`, `media_control`.
+`file_operation`, `delete_file`, `media_control`, `type_text`, and
+`press_keys`.
 
 ## 10. Permission System
 
 - **SAFE** (run immediately): open app/website, web search, system info,
   media, cancel shutdown.
-- **CONFIRMATION_REQUIRED**: shutdown, restart, delete file, whatsapp calls.
+- **CONFIRMATION_REQUIRED**: shutdown, restart, delete file, and the legacy
+  contact-book WhatsApp call flow. Automatic WhatsApp message/call tools are safe.
   The assistant asks "Are you sure…?", stores a `PendingAction` that expires
   after `CONFIRMATION_TIMEOUT`, and only proceeds on a clear yes/no.
 - **BLOCKED**: `run_shell`, `run_powershell`, credential access, security
   bypasses — rejected regardless of what the LLM says. External binaries are
   limited to an allow-list in `app/utils/security.py`.
 
-## 11. WhatsApp Limitations (honest scope)
+## 11. WhatsApp Automation (honest scope)
 
 - **"Open WhatsApp"**: launches WhatsApp Desktop if installed. ✔
-- **"Call Ahmed"**: WhatsApp has **no official public API** for third-party
+- **Legacy "Call Ahmed" flow**: WhatsApp has **no official public API** for third-party
   call initiation, and WhatsApp Desktop exposes no supported automation
   interface. This project therefore resolves the contact in your local
   contact book (`data/contacts.json`) and opens the official
@@ -138,6 +152,12 @@ Setup contacts:
 // data/contacts.json
 { "Ahmed Raza": { "phone": "+923001234567", "aliases": ["ahmed"] } }
 ```
+
+Automatic `whatsapp_message_auto` and `whatsapp_call_auto` use WhatsApp
+Desktop's UI Automation tree and do not require `data/contacts.json`. They
+search for a chat, locate accessible controls, and return failure if a required
+control or post-action verification is unavailable. The legacy
+`whatsapp_call` contact-book/deep-link tool remains only for compatibility.
 
 ## 12. How to Add New Tools
 

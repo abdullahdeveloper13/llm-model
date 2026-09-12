@@ -12,7 +12,7 @@ log = get_logger(__name__)
 
 
 class STTError(Exception):
-    pass
+    """Raised when local speech recognition cannot process an utterance."""
 
 
 class SpeechToText(ABC):
@@ -40,9 +40,21 @@ class WhisperSTT(SpeechToText):
             return ""
         try:
             model = self._load()
-            segments, _info = model.transcribe(audio, language="en", vad_filter=True)
+            # Automatic detection keeps English, Urdu, Roman Urdu, and mixed speech intact.
+            pcm = np.asarray(audio, dtype=np.float32).reshape(-1)
+            segments, _info = model.transcribe(
+                pcm,
+                language=None,
+                task="transcribe",
+                beam_size=settings.whisper_beam_size,
+                temperature=0.0,
+                vad_filter=True,
+                vad_parameters={"min_silence_duration_ms": settings.whisper_min_silence_ms},
+                no_speech_threshold=settings.whisper_no_speech_threshold,
+                condition_on_previous_text=False,
+            )
             text = " ".join(seg.text.strip() for seg in segments).strip()
-            log.info("Transcription: %r", text)
+            log.info("Transcription received")
             return text
         except Exception as exc:
             log.error("STT failed: %s", exc)

@@ -57,9 +57,13 @@ class Orchestrator:
         #: optional callback receiving (event_name, payload) — used by the API
         self.on_event: Callable[[str, dict], None] | None = None
 
+    def reset_session(self) -> None:
+        """Clear ephemeral context while retaining the command audit trail."""
+        self.planner.rule_brain.reset()
+
     # ---- main entry point -------------------------------------------------
     def handle(self, user_text: str) -> TurnResult:
-        log.info("Handle: %r", user_text)
+        log.info("Handling assistant request")
         self._emit("thinking")
 
         # 1) pending confirmation?
@@ -75,10 +79,15 @@ class Orchestrator:
             return TurnResult(response="Something went wrong while understanding that request.")
 
         if decision.type == "conversation":
-            self._remember(user_text, decision.response, "conversation", "", {}, decision.response, "ok")
+            if not decision.sensitive:
+                self._remember(user_text, decision.response, "conversation", "", {}, decision.response, "ok")
             return TurnResult(response=decision.response)
 
-        # 3) tool call -> permission gate
+        # 3) multi-step calls have their own permission preflight.
+        if decision.steps:
+            return self._run_steps(user_text, decision.steps, decision.sensitive)
+
+        # 4) single tool call -> permission gate
         tool = self.registry.get(decision.tool)
         if tool is None:  # should not happen after planner validation
             return TurnResult(response="That action isn't available.")
@@ -98,7 +107,7 @@ class Orchestrator:
                 awaiting_confirmation=True,
             )
 
-        return self._run_tool(user_text, decision.tool, decision.arguments)
+        return self._run_tool(user_text, decision.tool, decision.arguments, remember=not decision.sensitive)
 
     # ---- internals ---------------------------------------------------------
     def _handle_confirmation(self, user_text: str) -> TurnResult | None:
@@ -118,12 +127,33 @@ class Orchestrator:
             return TurnResult(response="Cancelled.", tool=pending.tool, success=True)
         return self._run_tool(pending.requested_text, pending.tool, pending.arguments)
 
-    def _run_tool(self, user_text: str, tool_name: str, arguments: dict) -> TurnResult:
+    def _run_steps(self, user_text: str, steps: list[dict], sensitive: bool = False) -> TurnResult:
+        # Validate every step's permission before executing any step, so a later
+        # destructive action cannot hide behind earlier safe actions.
+        for step in steps:
+            tool = self.registry.get(step["tool"])
+            if tool is None:
+                return TurnResult(response=f"Step '{step['tool']}' is not registered.", success=False)
+            decision = self.permissions.check(tool)
+            if decision.needs_confirmation:
+                prompt = CONFIRM_PROMPTS.get(step["tool"], "Are you sure you want to do that?")
+                self.permissions.stage(step["tool"], step.get("arguments", {}), user_text)
+                return TurnResult(response=prompt, tool=step["tool"], tool_args=step.get("arguments", {}), awaiting_confirmation=True)
+        messages: list[str] = []
+        for index, step in enumerate(steps, 1):
+            result = self._run_tool(user_text, step["tool"], step.get("arguments", {}), remember=not sensitive)
+            if not result.success:
+                return TurnResult(response=f"Step {index} failed: {result.response}", tool=result.tool, tool_args=result.tool_args, success=False)
+            messages.append(result.response)
+        return TurnResult(response=messages[-1] if messages else "Done.", success=True)
+
+    def _run_tool(self, user_text: str, tool_name: str, arguments: dict, remember: bool = True) -> TurnResult:
         self._emit("tool_started", tool=tool_name)
         result = self.executor.execute(tool_name, arguments)
         self._emit("tool_completed" if result.success else "tool_failed", tool=tool_name, success=result.success)
         status = "ok" if result.success else "failed"
-        self._remember(user_text, result.message, "tool_call", tool_name, arguments, result.message, status)
+        if remember:
+            self._remember(user_text, result.message, "tool_call", tool_name, arguments, result.message, status)
         return TurnResult(response=result.message, tool=tool_name, tool_args=arguments, success=result.success)
 
     def _remember(self, user_text: str, response: str, intent: str, tool: str,

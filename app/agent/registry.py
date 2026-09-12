@@ -50,9 +50,12 @@ class ToolRegistry:
 
 def build_default_registry() -> ToolRegistry:
     """Create a registry with all version-1 tools."""
-    from app.tools.apps.launcher import AppLauncher
+    from app.tools.apps.launcher import AppLauncher, CloseAppTool
+    from app.tools.apps.windows import WindowControlTool
     from app.tools.browser.browser import GoogleSearch, OpenWebsite, YouTubeSearch
+    from app.tools.browser.navigation import BrowserNavigationTool
     from app.tools.files.manager import DeleteFileTool
+    from app.tools.files.operations import FileOperationTool
     from app.tools.files.search import SearchFilesTool
     from app.tools.media.player import MediaControlTool
     from app.tools.system.shutdown import (
@@ -61,23 +64,33 @@ def build_default_registry() -> ToolRegistry:
         ShutdownTool,
     )
     from app.tools.system.system_info import SystemInfoTool
-    from app.tools.whatsapp.whatsapp import WhatsAppCallTool, WhatsAppOpenTool
+    from app.tools.system.keyboard import PressKeysTool, TypeTextTool
+    from app.tools.whatsapp.whatsapp import WhatsAppCallTool, WhatsAppOpenTool, WhatsAppOpenChatTool, WhatsAppCallAutoTool, WhatsAppMessageAutoTool
 
     registry = ToolRegistry()
     for tool in (
         AppLauncher(),
+        CloseAppTool(),
+        WindowControlTool(),
         OpenWebsite(),
         GoogleSearch(),
         YouTubeSearch(),
+        BrowserNavigationTool(),
         WhatsAppOpenTool(),
+        WhatsAppOpenChatTool(),
         WhatsAppCallTool(),
+        WhatsAppCallAutoTool(),
+        WhatsAppMessageAutoTool(),
         ShutdownTool(),
         RestartTool(),
         CancelShutdownTool(),
         SystemInfoTool(),
         SearchFilesTool(),
         DeleteFileTool(),
+        FileOperationTool(),
         MediaControlTool(),
+        TypeTextTool(),
+        PressKeysTool(),
     ):
         registry.register(tool)
     return registry

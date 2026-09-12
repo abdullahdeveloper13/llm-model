@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import numpy as np
+import time
 
 from app.config.settings import settings
 from app.core.orchestrator import Orchestrator
@@ -31,6 +32,7 @@ class Assistant:
         self.tts = tts or Pyttsx3TTS()
         self.wake = WakeWordDetector(enabled=require_wake_word)
         self.running = False
+        self.retry_delay = 1.0
 
     # -- one full voice round: returns what was heard & answered ------------
     def listen_once(self) -> tuple[str, str]:
@@ -38,15 +40,18 @@ class Assistant:
             audio = self.mic.record()
         except MicrophoneError as exc:
             self._speak("I can't access the microphone.")
+            log.warning("Microphone unavailable; retrying: %s", exc)
+            time.sleep(self.retry_delay)
             return "", str(exc)
         try:
             text = self.stt.transcribe(audio)
         except STTError:
             self._speak("I didn't catch that. Please try again.")
+            time.sleep(0.2)
             return "", ""
         if not text:
             return "", ""
-        log.info("User: %s", text)
+        log.info("User transcript received")
         if not self._should_handle(text):
             return text, ""
         result = self.orchestrator.handle(text)
@@ -60,11 +65,16 @@ class Assistant:
         self._speak("Assistant started. I'm listening.")
         try:
             while self.running:
-                self.listen_once()
+                try:
+                    self.listen_once()
+                except Exception:
+                    log.exception("Voice round failed; continuing to listen")
+                    time.sleep(self.retry_delay)
         except KeyboardInterrupt:
             log.info("Assistant stopped by user")
         finally:
             self.running = False
+            self.orchestrator.reset_session()
 
     def stop(self) -> None:
         self.running = False

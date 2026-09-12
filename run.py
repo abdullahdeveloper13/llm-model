@@ -17,7 +17,17 @@ def main() -> int:
     parser.add_argument("--api", action="store_true", help="Start the local FastAPI server too")
     parser.add_argument("--wake", action="store_true", help="Require the wake word before each command")
     parser.add_argument("--say", type=str, default="", help="Process a single text command and exit")
+    parser.add_argument("--install-startup", action="store_true", help="Install user-level Windows Startup entry")
+    parser.add_argument("--remove-startup", action="store_true", help="Remove the user-level Windows Startup entry")
     args = parser.parse_args()
+
+    if args.install_startup or args.remove_startup:
+        from app.startup import install_startup, remove_startup
+        if args.install_startup:
+            print(f"Startup entry installed: {install_startup()}")
+        else:
+            print("Startup entry removed." if remove_startup() else "No startup entry was installed.")
+        return 0
 
     from app.config.settings import settings
     from app.core.assistant import Assistant

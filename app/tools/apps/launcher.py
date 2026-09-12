@@ -53,3 +53,26 @@ class AppLauncher(Tool):
         except Exception as exc:
             log.error("Failed to launch %s: %s", app, exc)
             return ToolResult.fail(f"I couldn't open {app.title()}. ({exc})")
+
+
+class CloseAppTool(Tool):
+    name = "close_app"
+    description = "Close an application window by accessible title through Windows UI Automation."
+    schema = {"type": "object", "properties": {"application": {"type": "string"}}, "required": ["application"]}
+    category = "safe"
+
+    def execute(self, **kwargs) -> ToolResult:
+        app = str(kwargs.get("application", "")).strip()
+        if not app:
+            return ToolResult.fail("No application name was provided.")
+        try:
+            from pywinauto import Desktop
+            windows = Desktop(backend="uia").windows(title_re=f"(?i).*{app}.*")
+            if not windows:
+                return ToolResult.fail(f"I couldn't find an open window for {app.title()}.")
+            windows[0].close()
+            return ToolResult.ok(f"{app.title()} is closed.")
+        except ImportError:
+            return ToolResult.fail("Closing apps needs pywinauto on Windows.")
+        except Exception as exc:
+            return ToolResult.fail(f"I couldn't close {app.title()}. ({exc})")
