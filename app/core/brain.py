@@ -102,6 +102,51 @@ class RuleBasedBrain(Brain):
             return BrainDecision(type="conversation", response="I'm ready.")
         if "thank" in t:
             return BrainDecision(type="conversation", response="You're welcome.")
+        site_profile = re.search(r"(?:open|launch)\s+(.+?)\s+(?:using|with)\s+(?:my\s+)?(.+?)\s+profile$", raw, re.I)
+        if site_profile and site_profile.group(1).lower() not in {"chrome", "chromium"}:
+            return BrainDecision(type="tool_call", steps=[
+                {"tool": "open_chrome", "arguments": {"profile": site_profile.group(2).strip()}},
+                {"tool": "browser_control", "arguments": {"action": "navigate", "url": site_profile.group(1).strip()}},
+            ])
+        combined = re.search(r"(?:open|launch).*?(?:chrome|chromium).*?(?:with|using)\s+(?:my\s+)?([\w -]+?)\s+profile.*?(?:go to|navigate to)\s+(.+)$", raw, re.I)
+        if combined:
+            return BrainDecision(type="tool_call", steps=[
+                {"tool": "open_chrome", "arguments": {"profile": combined.group(1).strip()}},
+                {"tool": "browser_control", "arguments": {"action": "navigate", "url": combined.group(2).strip()}},
+            ])
+        profile_only = re.search(r"(?:open|use|switch to).*?(?:with|using)\s+(?:my\s+)?(.+?)\s+profile$", raw, re.I) or re.search(r"(?:open|use|switch to)\s+(?:my\s+)?(?:chrome\s+)?(.+?)\s+profile$", raw, re.I)
+        if profile_only:
+            profile = re.sub(r"\s+(?:chrome|chromium)$", "", profile_only.group(1).strip(), flags=re.I)
+            return self._call("open_chrome", profile=profile)
+        editor_match = re.search(r"\b(?:open|launch)\s+(?:(?:this|my|the)\s+)?(?:[\w -]+\s+)?(?:project|folder)?\s*(?:in|with)\s+(cursor|vs code|visual studio code|code)\b", raw, re.I)
+        if editor_match:
+            editor = "cursor" if editor_match.group(1).lower() == "cursor" else "code"
+            project = "this project" if "this" in t or "project" in t else ""
+            return self._call("open_editor", editor=editor, project=project)
+        if re.search(r"\b(open|launch|start)\s+(cursor|vs code|visual studio code|code)\b", t):
+            editor = "cursor" if "cursor" in t else "code"
+            return self._call("open_editor", editor=editor)
+        if any(x in t for x in ("run the tests", "run tests", "check whether the tests passed", "run it again")):
+            return self._call("run_project_tests", project="")
+        if re.search(r"\bopen\s+(?:my\s+)?downloads?(?:\s+folder)?\b", t):
+            return self._call("file_operation", action="open", path=str(__import__("pathlib").Path.home() / "Downloads"))
+        if any(x in t for x in ("download this", "download it", "download the", "save this file")):
+            return self._call("browser_control", action="click", text="Download")
+        if any(x in t for x in ("check the page", "inspect the page", "read this page")):
+            return self._call("browser_control", action="inspect")
+        if re.search(r"\b(go to|navigate to)\b", t):
+            target = re.sub(r".*?\b(?:go to|navigate to)\b\s*", "", raw, flags=re.I).strip()
+            return self._call("browser_control", action="navigate", url=target)
+        if re.search(r"\b(open|launch|start)\s+(chrome|chromium)\b", t) and re.search(r"\b(profile|personal|work|development|main)\b", t):
+            profile_match = re.search(r"(?:profile|with)\s+([\w -]+?)(?:\s+profile)?$", raw, re.I)
+            profile = profile_match.group(1).strip() if profile_match else ""
+            profile = re.sub(r"\s+(?:chrome|chromium)$", "", profile, flags=re.I)
+            return self._call("open_chrome", profile=profile)
+        if re.fullmatch(r"(?:open|launch|start)\s+(?:chrome|chromium)", t):
+            # Keep the generic app intent for the unqualified request. The
+            # launcher still discovers Chrome on Linux; the dedicated Chrome
+            # tool is reserved for profile-aware launches.
+            return self._call("open_app", application="Chrome")
         if t.startswith("call ") or t.startswith("phone "):
             contact = t.split(None, 1)[1].strip().title()
             tool = "whatsapp_call_auto" if self.current_application == "whatsapp" else "whatsapp_call"
@@ -137,6 +182,8 @@ class RuleBasedBrain(Brain):
             return self._call("shutdown")
         if "restart" in t or "reboot" in t:
             return self._call("restart")
+        if any(x in t for x in ("run diagnostics", "run a diagnostic", "check capabilities", "diagnose")):
+            return self._call("run_diagnostics")
         if any(x in t for x in ("system info", "system information", "computer status", "cpu", "ram", "memory")):
             detail = "cpu" if "cpu" in t else "ram" if "ram" in t or "memory" in t else "all"
             return self._call("system_info", detail=detail)

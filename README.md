@@ -1,6 +1,6 @@
-# Windows AI Voice Assistant
+# Orbital — Voice-First Personal Computer Agent
 
-A production-quality, **local** voice-controlled assistant for Windows.
+A local, voice-first computer agent with Linux desktop discovery, Chrome profile awareness, safety gates, and a Next.js control console.
 You speak ("Open WhatsApp", "Shutdown my computer"), it transcribes your
 speech, understands the intent with an LLM (or an offline rule-based fallback),
 and executes **registered, permission-checked tools** on your actual machine.
@@ -39,17 +39,17 @@ Modules: `app/core` (brain, orchestrator, memory, assistant), `app/agent`
 
 ## 3. Requirements
 
-- Windows 10/11, Python 3.11+
+- Linux desktop (primary target), Python 3.11+
 - A microphone (voice mode only)
 - Optional: an OpenAI-compatible API key. Without one, the assistant runs in
   rule-based mode and still understands the standard command set.
 
 ## 4. Installation
 
-```powershell
-cd c:\llm-model
-python -m pip install -r requirements.txt
-Copy-Item .env.example .env   # then edit .env
+```bash
+cd /home/abdullah/Documents/llm-chatbot
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
 ```
 
 ## 5. Environment Variables (`.env`)
@@ -78,13 +78,13 @@ Never commit `.env`.
 
 ## 6. How to Run
 
-```powershell
-python run.py              # interactive text mode (works everywhere)
-python run.py --voice      # full voice loop (mic + Whisper + TTS)
+```bash
+python run.py              # optional text/API development mode
+python run.py --voice      # primary voice loop (mic + Whisper + TTS)
 python run.py --voice --wake  # require "hey assistant" before each command
 python run.py --api        # start the local FastAPI/WebSocket server too
 python run.py --say "open notepad"   # one-shot command
-python run.py --install-startup       # install per-user Windows Startup entry
+python run.py --install-startup       # Windows-only startup helper
 python run.py --remove-startup        # remove that entry
 ```
 
@@ -168,7 +168,7 @@ control or post-action verification is unavailable. The legacy
 
 ## 13. Testing
 
-```powershell
+```bash
 python -m pytest tests -q
 ```
 
@@ -202,6 +202,10 @@ simulated in development mode.
 - "Call Ahmed" (requires `data/contacts.json`; ambiguous names ask back)
 - "Play music" / "Volume up" · "Hello" / "What can you do?"
 
+## Linux capabilities and limitations
+
+The agent discovers `.desktop` applications from the standard Linux application directories, parses safe names/metadata and Exec field codes without shell evaluation, discovers Chrome profiles from `Local State`/`Preferences` without reading passwords or cookies, and verifies Chrome process startup. Window focus, close, minimize, maximize, screenshots, and keyboard automation use optional `wmctrl`, `xdotool`, and desktop screenshot tools; unavailable dependencies are reported as unavailable. Playwright is now the structured browser layer. It supports verified navigation, page inspection, semantic role/label/text/placeholder locators, filling, clicking, scrolling, tabs, screenshots, and actual download events saved to `~/Downloads`. Install the Playwright browser runtime with `.venv/bin/playwright install chromium` if the system Chrome executable is unavailable. DOM automation is limited by sites that require authentication or anti-automation controls.
+
 ## Known Limitations
 
 - Whisper downloads a model (~150 MB for `base`) on first voice run.
@@ -209,3 +213,21 @@ simulated in development mode.
   restriction, not a project shortcut).
 - Wake word matching is transcript-based; install porcupine/openWakeWord and
   extend `app/voice/wake_word.py` for always-on detection.
+- `wmctrl`, `xdotool`, `xclip`, and screenshot utilities are optional. Their
+  availability is exposed by diagnostics; browser DOM control does not depend on them.
+- Cursor is reported unavailable when its CLI is absent. VS Code is controlled
+  through its `code` CLI when installed; no action is claimed if the process exits
+  and cannot be verified.
+
+
+## Browser, downloads, editors, and tasks
+
+`browser_control` uses Playwright rather than fixed screen coordinates. Its
+structured actions include `navigate`, `inspect`, `click`, `download`, `fill`,
+`press`, `scroll`, `select`, `screenshot`, `tabs`, `new_tab`, and `close_tab`.
+Downloads are saved to a controlled directory and require a real non-empty file
+before success is returned. `open_editor` uses the supported `cursor` or `code`
+CLI when present. `run_project_tests` selects the project’s Python test suite or
+`npm test`, bounds execution, captures output, and reports the actual exit state.
+The task engine records observations, verification, bounded recovery attempts,
+and failure reasons.

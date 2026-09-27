@@ -9,7 +9,7 @@ from app.tools.base import Tool, ToolResult
 
 
 def _roots() -> list[Path]:
-    profile = Path(os.environ.get("USERPROFILE", "."))
+    profile = Path(os.environ.get("USERPROFILE", str(Path.home())))
     return [profile / name for name in ("Documents", "Desktop", "Downloads", "Pictures")]
 
 
@@ -33,7 +33,11 @@ class FileOperationTool(Tool):
         try:
             path = _user_path(str(kwargs.get("path", "")), must_exist=action != "create")
             if action == "open":
-                os.startfile(str(path))
+                if hasattr(os, "startfile"):
+                    os.startfile(str(path))
+                else:
+                    import subprocess
+                    subprocess.Popen(["xdg-open", str(path)], close_fds=True)
             elif action == "create":
                 path.parent.mkdir(parents=True, exist_ok=True)
                 path.touch(exist_ok=False)

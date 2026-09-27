@@ -52,8 +52,12 @@ class Assistant:
         if not text:
             return "", ""
         log.info("User transcript received")
-        if not self._should_handle(text):
-            return text, ""
+        if self.wake.enabled:
+            if not self.wake.contains(text):
+                return text, ""
+            text = self.wake.strip(text)
+        if not text:
+            return "", ""
         result = self.orchestrator.handle(text)
         log.info("Assistant: %s", result.response)
         self._speak(result.response)

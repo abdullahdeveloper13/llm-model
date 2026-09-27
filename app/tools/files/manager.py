@@ -9,9 +9,9 @@ from app.utils.logger import get_logger
 log = get_logger(__name__)
 
 USER_DIRS = [
-    Path(__import__("os").environ.get("USERPROFILE", ".")) / "Documents",
-    Path(__import__("os").environ.get("USERPROFILE", ".")) / "Desktop",
-    Path(__import__("os").environ.get("USERPROFILE", ".")) / "Downloads",
+    Path(__import__("os").environ.get("USERPROFILE", str(Path.home()))) / "Documents",
+    Path(__import__("os").environ.get("USERPROFILE", str(Path.home()))) / "Desktop",
+    Path(__import__("os").environ.get("USERPROFILE", str(Path.home()))) / "Downloads",
 ]
 
 # Where this project lives — never allow deleting project/system files

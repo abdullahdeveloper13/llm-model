@@ -10,10 +10,8 @@ from app.utils.logger import get_logger
 log = get_logger(__name__)
 
 SEARCH_ROOTS = [
-    Path(os.environ.get("USERPROFILE", ".")) / "Documents",
-    Path(os.environ.get("USERPROFILE", ".")) / "Desktop",
-    Path(os.environ.get("USERPROFILE", ".")) / "Downloads",
-    Path(os.environ.get("USERPROFILE", ".")) / "Pictures",
+    Path(os.environ.get("USERPROFILE", str(Path.home()))) / name
+    for name in ("Documents", "Desktop", "Downloads", "Pictures")
 ]
 
 

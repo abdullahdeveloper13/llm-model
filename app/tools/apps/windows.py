@@ -14,6 +14,19 @@ class WindowControlTool(Tool):
         action = str(kwargs.get("action", "")).lower().strip()
         application = str(kwargs.get("application", "")).lower().strip()
         try:
+            if __import__("platform").system() == "Linux":
+                from app.tools.computer import ComputerController
+                controller = ComputerController()
+                if action == "list":
+                    windows = controller.windows()
+                    return ToolResult.ok("Open windows: " + ", ".join(w.title for w in windows), windows=[w.__dict__ for w in windows])
+                if not application:
+                    active = controller.active_window()
+                    application = active.title if active else ""
+                method = getattr(controller, action if action in {"focus", "minimize", "maximize"} else "focus", None)
+                if method and method(application):
+                    return ToolResult.ok(f"Window {action} complete.")
+                return ToolResult.fail(f"I couldn't find an open window for {application or 'that application'}.")
             from pywinauto import Desktop
             windows = [w for w in Desktop(backend="uia").windows() if w.window_text().strip()]
             if action == "list":

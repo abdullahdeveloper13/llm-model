@@ -133,15 +133,25 @@ def test_destructive_actions_still_confirm() -> None:
     assert orch.handle("delete file C:/Users/test/old.txt").awaiting_confirmation
 
 
-def test_sensitive_path_does_not_enter_memory(tmp_path) -> None:
+def test_sensitive_path_does_not_enter_memory(tmp_path, monkeypatch) -> None:
     memory = Memory(Database(path=str(tmp_path / "commands.db")))
     orch = Orchestrator(registry=build_default_registry(), memory=memory)
     llm = Mock()
     orch.planner.llm_brain = llm
+
+    typed: list[str] = []
+    monkeypatch.setattr(
+        orch.registry.get("type_text"),
+        "execute",
+        lambda **kw: (typed.append(kw["text"]) or ToolResult.ok("typed")),
+    )
+
     assert orch.handle("Enter PIN").success
     orch.handle("one two three four")
     orch.handle("Enter")
+
     llm.decide.assert_not_called()
+    assert typed == ["1234"]
     assert all("1234" not in str(row.model_dump()) for row in memory.db.recent(20))
 
 
